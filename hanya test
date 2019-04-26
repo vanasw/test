@@ -88,7 +88,7 @@ if pilih==2:
                  |___/ \n''')
 	daily = ['Sambutlah Ramadhan Dengan Senyuman' , 'Ramadhan itu adalah bulan memberi pertolongan ( syahrul muwasah ) dan bulan Allah memberikan rizqi kepada mukmin di dalamnya.' , 'Permulaan Ramadhan itu adalah rahmat, pertengahannya adalah keampunan (maghrifah) dan penghujungnya adalah kebebasan dari api neraka.' , 'Bulan puasa bulan mulia. Bulan pembentuk insan bertaqwa. Siapa suka mari berlaga, sambut surga di alam baka.' , 'Qiyamul lail akan menyehatkan tubuh, Hadits sahih menyebutkan orang yg rajin Tahajjud akan energik dan jiwanya tenang.' , 'Brsedkahlah kalian, krn ssngguhnya sdkah dpt mnmbh hrta yg bnyk.Mk brsdkahlah kalian,nscya Allah myyngi klian.' , 'Barang siapa mengucapkan subhanallahi wabihamdihi 100x setiap hari, akan diampunkan dosanya walaupun sebanyak buih dlautan']
 	ha = random.SystemRandom()
-	li("daily: "+ha.choice(daily))
+	li(G+"daily: "+C+ha.choice(daily))
 	exit("Thanks")
 else:
 	exit("LOL")
